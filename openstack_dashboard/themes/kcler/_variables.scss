@@ -1,1 +1,55 @@
+//
+// King's theme
+//
+
+$white:     #fff;
+$gray-100:  #f8f9fa;
+$gray-200:  #e9ecef;
+$gray-300:  #dee2e6;
+$gray-400:  #ced4da;
+$gray-500:  #adb5bd;
+$gray-600:  #6c757d;
+$gray-700:  #495057;
+$gray-800:  #343a40;
+$gray-900:  #212529;
+$gray-1000: #121517;
+$black:     #000;
+
+$blue:    #0A2D50;
+$indigo:  #005AD2;
+$purple:  #7242C2;
+$pink:    #FC5E72;
+$red:     #E2231A;
+$orange:  #FF5F05;
+$yellow:  #F39C12;
+$green:   #28C382;
+$teal:    #009EA0;
+$cyan:    #3498DB;
+
+$kingsred:      #E2231A;
+$kingsgrey:     #5a6369;
+$kingsdarkgrey: #333C3E;
+$pearlgrey:     #CDD7DC;
+
+$brand-secondary: $blue;
+$brand-light:     $gray-200;
+$brand-dark:      $kingsgrey;
+
+// -----------------------------------------
+// Bootstrap mappings.
+// -----------------------------------------
+
+$brand-primary: $kingsdarkgrey;
+$brand-success: $green;
+$brand-info:    $cyan;
+$brand-warning: $yellow;
+$brand-danger:  $red;
+
+$gray-darker:  $gray-900;
+$gray-dark:    $gray-800;
+$gray:         $gray-500;
+$gray-light:   $gray-300;
+$gray-lighter: $gray-200;
+
+
 @import "/themes/default/variables";
