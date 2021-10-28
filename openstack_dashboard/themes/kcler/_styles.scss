@@ -1,1 +1,44 @@
 @import "/themes/default/styles";
+
+body {
+    font-size: 16px;
+}
+
+.pie-chart-usage .arc.inner {
+    fill: $blue;
+}
+
+.navbar-fixed-top
+{
+    height: 73px;
+    background-color: $kingsdarkgrey;
+
+    .navbar-brand {
+        margin-right: 0;
+        margin-left: 100px;
+        padding-left: 0;
+
+        img.openstack-logo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-left: 0;
+            height: 72px;
+            width: 95px;
+        }
+    }
+
+    a.dropdown-toggle {
+        color: #fff;
+        padding-top: 28px;
+        padding-bottom: 27px;
+
+        &:hover {
+            color: #333;
+        }
+    }
+}
+
+#main_content {
+    padding-top: 83px;
+}
