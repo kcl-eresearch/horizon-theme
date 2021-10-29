@@ -1,11 +1,8 @@
 @import "/themes/default/styles";
+@import "charts";
 
 body {
     font-size: 16px;
-}
-
-.pie-chart-usage .arc.inner {
-    fill: $teal;
 }
 
 .navbar-fixed-top
@@ -50,3 +47,4 @@ body {
     }
 }
 
+.pie-chart .svg-pie-chart .slice.usage

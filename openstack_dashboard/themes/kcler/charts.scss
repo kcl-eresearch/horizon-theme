@@ -1,0 +1,58 @@
+
+.pie-chart-usage .arc.inner {
+    fill: $chart-primary;
+}
+
+.pie-chart {
+    .svg-pie-chart {
+        .slice {
+            &.usage {
+                fill: $chart-usage;
+            }
+
+            &.added {
+                fill: $chart-added;
+            }
+
+            &.remaining {
+                fill: $gray-lighter;
+            }
+        }
+    }
+
+    .pie-chart-legend {
+        .slice-legend {
+            .slice-key {
+                &.usage {
+                    background-color: $chart-usage;
+                }
+
+                &.added {
+                    background-color: $chart-added;
+                }
+            }
+
+            .chartless {
+                &.usage {
+                    color: $chart-usage;
+                }
+
+                &.added {
+                    color: $chart-added;
+                }
+            }
+        }
+    }
+}
+
+.chart-tooltip {
+    span.fa {
+        &.usage {
+            color: $chart-usage;
+        }
+
+        &.added {
+            color: $chart-added;
+        }
+    }
+}
