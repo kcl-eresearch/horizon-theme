@@ -5,19 +5,16 @@ body {
 }
 
 .pie-chart-usage .arc.inner {
-    fill: $blue;
+    fill: $teal;
 }
 
 .navbar-fixed-top
 {
     height: 73px;
     background-color: $kingsdarkgrey;
+    padding-left: 100px;
 
     .navbar-brand {
-        margin-right: 0;
-        margin-left: 100px;
-        padding-left: 0;
-
         img.openstack-logo {
             position: absolute;
             top: 0;
@@ -28,17 +25,28 @@ body {
         }
     }
 
-    a.dropdown-toggle {
-        color: #fff;
-        padding-top: 28px;
-        padding-bottom: 27px;
+    .navbar-nav > li > a.dropdown-toggle {
+        color: #fff !important;
+        padding: 25px 10px;
 
         &:hover {
-            color: #333;
+            color: #333 !important;
         }
+    }
+
+    > .navbar-collapse {
+        margin-top: 18px;
+        background-color: $kingsdarkgrey;
     }
 }
 
 #main_content {
     padding-top: 83px;
 }
+
+@media (min-width: 768px) {
+    .navbar-fixed-top > .navbar-collapse {
+        margin-top: 0;
+    }
+}
+
