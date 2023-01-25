@@ -5,6 +5,10 @@ body {
     font-size: 16px;
 }
 
+button, select, html, textarea, input {
+  font-family: inherit;
+}
+
 .navbar-fixed-top
 {
     height: 73px;
